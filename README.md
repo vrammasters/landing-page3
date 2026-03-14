@@ -84,6 +84,10 @@ Professional and friendly mastering services
 Contact Me
 </a>
 
+<div class="bottom-text">
+Email me at Vram.masters@gmail.com
+</div>
+
 </div>
 
 </body>
