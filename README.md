@@ -84,9 +84,16 @@ Professional and friendly mastering services
 Contact Me
 </a>
 
-<div class="bottom-text">
-Email me at Vram.masters@gmail.com
-</div>
+<p>Email me at <span id="email"></span></p>
+
+<script>
+  const user = "Vram.Masters";
+  const domain = "gmail.com";
+  const email = user + "@" + domain;
+
+  document.getElementById("email").innerHTML =
+    '<a href="mailto:' + email + '">' + email + '</a>';
+</script>
 
 </div>
 
